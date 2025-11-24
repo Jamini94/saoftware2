@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>TVMaze - Display Results (Question 3)</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 18px; }
+    form { margin-bottom: 12px; }
+    article { border: 1px solid #ddd; padding: 10px; margin-bottom: 12px; border-radius: 6px; }
+    img { display:block; width:210px; height:295px; object-fit:cover; margin:8px 0; }
+    h2 { margin:0 0 6px; }
+    a { display:inline-block; margin-bottom:6px; }
+  </style>
+</head>
+<body>
+  <h1>TV Series Search</h1>
+
+  <form id="searchForm" aria-label="Search TV series">
+    <label for="query">Search for a TV show:</label>
+    <input id="query" name="q" type="text" placeholder="Enter TV show name">
+    <button type="submit">Search</button>
+  </form>
+
+  <div id="results" aria-live="polite"></div>
+
+  <script src="assignment3.js"></script>
+</body>
+</html>

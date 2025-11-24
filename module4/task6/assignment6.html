@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chuck Norris Joke Search</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 50px;
+      background-color: #f5fffa;
+    }
+
+    form {
+      margin-bottom: 20px;
+    }
+
+    input[type="text"] {
+      padding: 8px;
+      font-size: 1rem;
+      width: 200px;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 1rem;
+      cursor: pointer;
+      background-color: #ff6347;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background-color: #ff4500;
+    }
+
+    article {
+      background-color: #fff;
+      padding: 10px 15px;
+      margin: 10px auto;
+      max-width: 600px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+      text-align: left;
+    }
+
+    p {
+      margin: 0;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Chuck Norris Joke Search</h1>
+
+  <!-- Search Form -->
+  <form id="searchForm">
+      <label for="searchInput"></label><input type="text" id="searchInput" placeholder="Enter a keyword" required>
+    <button type="submit">Search</button>
+  </form>
+
+  <!-- Container for search results -->
+  <div id="jokesContainer">
+    <p>Enter a keyword and click search to see jokes!</p>
+  </div>
+
+  <script src="assignment6.js"></script>
+</body>
+</html>
